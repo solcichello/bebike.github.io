@@ -7,39 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<meta name="description" content="Lo que conforma nuestro servicio">
 	<meta name="keywords" content="bicicletas, bicis, taller, accesorios">
+	<link rel="icon" type="image/png" href="verdad.png">
+	<script src="https://kit.fontawesome.com/647dfbc2dc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	<nav class="Menu-Principal">
-
-	<ul class="nav nav-pills nav justify-content-end nav nav-tabs" >
+	<!--Menu de la pagina -->
+	<nav class="barra">
 		<div class="titulo">
-	    <p>BE BIKE</p>
-	    </div>
-		<li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-
-		<li class="nav-item"><a class="nav-link" target="_blank" href="file:///C:/Users/54114/Desktop/Programacion/CODER/Clase%2013/3era%20entrega%20TPF/Accesorios.html">Accesorios</a></li>
-
-		<li class="nav-item dropdown">
-			<a class="nav-link dropdown-toggle" data-toggle="dropdown" target="_blank" href="file:///C:/Users/54114/Desktop/Programacion/CODER/Clase%2013/3era%20entrega%20TPF/bicicletas.html" role="button" 
-			aria-haspopup="true" aria-expanded="true">Bicicletas</a>
-			<div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Vintage</a>
-            <a class="dropdown-item" href="#">Montaña</a>
-            <a class="dropdown-item" href="#">Chopper</a>
-            <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#">Separated link</a>
-           </div>
-		</li>
-
-		<li class="nav-item"><a class="nav-link" target="_blank" href="file:///C:/Users/54114/Desktop/Programacion/CODER/Clase%2013/3era%20entrega%20TPF/taller.html" >Taller</a></li>
-
-		<li class="nav-item"><a class="nav-link" target="_blank" href="file:///C:/Users/54114/Desktop/Programacion/CODER/Clase%2013/3era%20entrega%20TPF/contacto.html">Contacto</a></li>
-        
-	</ul>
-</nav>
-	<div>
-<form id="Contacto">
-	<legend class="titulo1">CONTACTO</legend>
+	    <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBE BIKE&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+	  </div>
+    <ul class=" nav nav-pills nav justify-content-end nav" >
+    <div class="menu">
+		  <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+		  <li class="nav-item"><a class="nav-link" target="_blank" href="Accesorios.html">Accesorios</a></li>
+		  <li class="nav-item"><a class="nav-link" target="_blank" href="bicicletas.html">Bicicletas</a></li>
+		  <li class="nav-item"><a class="nav-link" target="_blank" href="taller.html" >Taller</a></li>
+		  <li class="nav-item"><a class="nav-link active" target="_blank" href="contacto.html">Contacto</a></li>
+	  </div>
+    </ul>
+  </nav>
+  <!--Formulario contacto -->
+	<div class="container">
+    <form id="Contacto">
+	<legend class="titulo1">CONTACTANOS</legend>
 	<div class="form-group">
 	<label for="nombre">Nombre</label>
 	<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Tu nombre">
@@ -57,33 +47,39 @@
 </div>
 </body>
 <hr>
+<!--Pie de Pagina -->
 <footer>
-	<div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-12 col-xs-12">
-            <p class="titulo2">SUCURSALES</p>
-            <div class="row">
-    <div class="col">
-      Recoleta - 4341-0212
-    </div>
-    <div class="col">
-      Belgrano - 4222-5896
-    </div>
-    <div class="col">
-      Caballito - 4855-9665
+  <div class="bloque-footer">
+      <div class="medios">
+        <div class="pagos">
+          <h5 class="h5"><i class="far fa-credit-card"></i>&nbsp&nbspMedios de Pago</h5>
+        </div>
+      <ul type="square">
+       <li>Transferencia Bancaria</li>
+       <li>Deposito en cuenta</li>
+       <li>Mercado Pago</li>
+       <li>Tarjeta de Debito/Credito</li>
+      </ul>
+      </div>
+      <div class="sucursales">
+        <div class="store">
+          <h5 class="h5"><i class="fas fa-store-alt"></i>&nbsp&nbspSucursales</h5>
+        </div>
+      <ul type="square">
+        <li>Recoleta - Tel:4545-7896 </li>
+        <li>Palermo - Tel: 4662-9885</li>
+        <li>Caballito - Tel: 4225-3665</li>
+      </ul>
+      </div>
+      <div class="sociales">
+        <div class="social">
+        <h5 class="h5"><i class="fas fa-users"></i>&nbsp&nbspSociales</h5>
+          <a href="#" target="_blank"><i class="fab fa-facebook-square" ></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
   </div>
-  <br>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-            </ul>
-          </div>
-        </div>
-      </div>
 </footer>
 </html>

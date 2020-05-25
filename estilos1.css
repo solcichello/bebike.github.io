@@ -1,144 +1,120 @@
-.nav-link{color: black}
 
+.nav-link{color: black;
+font-size: 15px;}
+.barra{display: flex;
+justify-content: space-between;
+align-content: space-between;
+background-image: linear-gradient(to right, #3386FF, #33B8FF, #33E3FF )}
+.menu{display: flex;
+align-items: center;
+justify-content: space-around;
+flex: 1;
+font-size: 50px;
+}
+.nav-link{margin: 10px;}
 body{background-image: linear-gradient(to right, #3386FF, #33B8FF, #33E3FF );
 font-family: 'Comic Neue', cursive;}
 .titulo1{ font-weight: bold; text-decoration: underline;}
-.titulo2{font-weight: bold;}
+.titulo2{font-weight: bold;
+margin-left: 40px;}
 footer{background-image: linear-gradient(to right, #3386FF, #33B8FF, #33E3FF );
 }
+.taller h1 { font-size: 18px; 
+text-decoration: none;
+margin-top: 100px;
+margin-right: 50px;
+margin-left: 50px;
+color: #34495E;
+}
+.talleres{align-items: center;
+text-align: center;
+}
+#taller1{background: white;
+margin-right: 200px;
+margin-left: 200px;
+}
+.talleres h5 {font-size: 30px;}
+.talleres p {font-size: 15px}
+.card { display: grid;
+ grid-template-rows: 100px;
+ grid-template-columns: 300px 300px 300px;
+ text-align: center;
+ justify-content: center;
+ margin-left: 80px;
+ margin-right: 80px;
+ margin-top: 40px;
+ }
+.bicicletas{ font-weight: bold;
+ font-size: 30px; 
+font-style: italic;
+margin-right: 30px;
+margin-left: 2px;}
 #somos{display: grid;
-grid-template-columns: 700px 600px;
+grid-template-columns: 600px 600px;
 grid-template-rows: 500px;
 grid-template-areas: "texto imagen";
 justify-content: center;
-align-items: center;}
-.imagen{grid-area: imagen}
+align-items: center;
+text-align: center;}
+.imagen{grid-area: imagen;}
 .texto{grid-area: texto; 
 	justify-self: stretch;}
-h1{font-size: 20px; text-decoration: underline;}
-h4{font-size: 15px}
-.titulo{font-weight: bold;
+.texto h1{font-size: 40px; font-style: italic; text-align: center;}
+.texto h4{font-size: 20px; text-decoration: none;}
+.titulo{display: flex;
+  margin: 20px 100px;
+  border: black 4px double;
+  border-radius: 20px;
+  justify-content: center;
+  font-weight: bold;
 	font-style: italic;
-font-size: 50px;
+  align-items: center;
+  padding-top: 7px;
+font-size: 40px;
 color: black;
 line-height: 70px;
-background-image: linear-gradient(to right, #33E3FF, #33B8FF, #3386FF);
+background-image: linear-gradient(to right, #3386FF);
 text-align: left;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in;
-animation-duration: 4s;
-animation-delay: 0s;
-animation-name: aparecer;
 font-family: 'Poppins', sans-serif;
-font-weight: 600}
-@keyframes aparecer{0% {opacity: 0;}
-100%{opacity: 1} }
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
-.container{text-align: center;}
+font-weight: 600;}
+
+.container{text-align: center;
+  align-content: center;}
 #UNO{font-weight: bold;}
+
+.card-text { color: black; 
+border-color: black;}
+.card-body .btn {color: black;
+background-image: linear-gradient(to right, #3386FF, #33B8FF, #33E3FF );
+}
+.card-body{background-image: linear-gradient(to right, #3386FF, #33B8FF, #33E3FF );
+}
+.card-header{font-size: 20px;
+}
+.iconos {font-size: 50px}
+.icon-index{font-size: 30px;
+background-color: #F2F3F4;}
+.card-body .btn {font-weight: bold;}
+.fab{color: black;
+text-decoration: none;
+padding: .7rem;}
+.bloque-footer{display: grid;
+grid-template-rows: 20px;
+grid-template-columns: 300px 300px 400px;
+margin-left: 150px;
+margin-right: 100px;
+margin-top: 40px;
+margin-bottom: 40px;
+align-content: center;
+grid-column-gap: 100px;
+justify-content: center;
+}
+.store {font-size: 20px;
+text-align: left;}
+.social{font-size: 20px;
+text-align: left;}
+.pagos{font-size: 20px;
+text-align: left;}
+.h5{font-size: 15px;}
+ul li {font-size: 12px;}
+
